@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding:0;
+    
+}
+#profile{
+    background: linear-gradient(rgba(0,0,0,0.5),#010a25),url(Ledama3.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-size:cover;
+    height: 100vh;
+
+}
+.quote{
+    padding-left: 30px;
+    padding-top: 250px;
+    position: absolute;
+    display: block;
+}
+.quote p{
+    color: white;
+    font-size: 30px;
+    font-style: italic;
+}
+.quote p span{
+    color: red;
+}
+.name{
+    text-align: center;
+    color: white;
+    padding-top: 540px;
+
+}
+.name h1{
+    font-size: 60px;
+
+}
+.name h1 span{
+    color: red;
+}
+
+.name p{
+    font-size: 20px;
+    font-style: italic;
+}
+#about{
+    width: 100%;
+    padding: 50px 0;
+}
+.about{
+    width: 80%;
+    align-items: center;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+
+}
+#about h1{
+    color: #010a25;
+    font-size: 28px;
+    text-align: center;
+}
+#about h1 span{
+    color: red;
+    font-weight: lighter;
+}
+.content{
+    flex-basis: 50%;
+}
+.content p{
+    font-size: 20px;
+    position: relative ;
+    padding: 15px 50px;
+    display: inline-block;
+    z-index: 1;
+    text-align: left;
+}
+.photo{
+    flex-basis: 50%;
+    margin: auto;
+}
+.photo img{
+    width: 90%;
+    height: 100vh;
+    padding: 0 20px;
+}
+.vertical{
+    border-left: 4px solid rgb(4, 4, 36);
+    height: 620px;
+    position: absolute;
+    left: 50%;
+    padding: 20px;
+}
+.content ul{
+    padding: 0 70px;
+    text-align: left;
+}
+.content ul li{
+    font-size: 18px;
+}
+.content ul li span{
+    color: red;
+}
+footer{
+    align-items: center;
+    text-align: center;
+    width: auto;
+    background-color: #010a25;
+    height: 50px;
+}
+footer p{
+    color: white;
+    text-align: center;
+    font-style: italic;
+    font-size: 18px;
+    padding-top: 10px;
+}
